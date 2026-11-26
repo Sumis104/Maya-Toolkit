@@ -7,7 +7,7 @@ class BaseCheck:
     can_fix = False
 
     def check(self, targets):
-        raise NotImplementedError("checkが実装されていません。")
+        raise NotImplementedError(f"{type(self).__name__}: check is not implemented.")
 
     def fix(self, issues):
-        raise NotImplementedError("fixが実装されていません。")
+        raise NotImplementedError(f"{type(self).__name__}: fix is not implemented.")
