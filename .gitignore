@@ -221,3 +221,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maya
+*.ma
+*.mb
+*.swatches
+incrementalSave/
+
+# 画像
+*.psd
